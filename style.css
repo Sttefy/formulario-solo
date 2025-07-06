@@ -1,0 +1,24 @@
+
+h2 {
+    color: rgb(126, 17, 250);
+    text-decoration: rgb(1, 236, 236);
+}
+
+label {
+    background-color: rgb(212, 200, 223);
+    color: rgb(7, 7, 7);
+}
+
+input {
+    background-color: rgb(255, 254, 254);
+}
+
+.error {
+    color: red;
+}
+
+
+body {
+    font-size: large;
+    background-color: rgb(139, 243, 243);
+}

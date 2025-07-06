@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepcion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="formulario">
+        <h2>Registro para Recepciones</h2>
+        <label for="nombre">Nombre:
+    <input type="text" id="nombre">
+    <span id="errorNombre" class="error"></span>
+  </label>
+
+  <label for="correo">Correo:
+    <input type="email" id="correo">
+    <span id="errorCorreo" class="error"></span>
+  </label>
+
+  <label for="contraseña">Contraseña:
+    <input type="password" id="contraseña">
+    <span id="errorContraseña" class="error"></span>
+  </label>
+
+  <label for="confirmar_contraseña">Confirmar contraseña:
+    <input type="password" id="confirmar_contraseña">
+    <span id="errorConfirmarContraseña" class="error"></span>
+  </label>
+
+  <label for="edad">Edad:
+    <input type="number" id="edad">
+    <span id="errorEdad" class="error"></span>
+  </label>
+
+  <label for="recepcion">Recepción:
+    <input type="text" id="recepcion">
+    <span id="errorRecepcion" class="error"></span>
+  </label>
+
+        <div>
+            <button type="submit" id="enviar">Enviar</button>
+        </div>
+
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
